@@ -1,0 +1,30 @@
+.header{
+    border-bottom: 1px solid var(--primary-color);
+    height: 8dvh;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.h1{
+    color: var(--gray);
+    font-size: var(--x-large);
+    span{
+        color: var(--primary-color);   
+    }
+
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .imageLogo{
+        width: 50px;
+        height: 100%;
+        filter: invert(30%) sepia(91%) saturate(4082%) hue-rotate(334deg) brightness(98%) contrast(86%);
+    
+    }
+}

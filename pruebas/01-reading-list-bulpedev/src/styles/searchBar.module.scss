@@ -1,0 +1,47 @@
+
+.label{
+    width: 30%;
+    height: 4dvh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    span{
+        width: fit-content;
+        white-space: nowrap;
+        font-size: var(--small);
+        color: var(--gray);
+        margin: "0 10px 0 0"
+    }
+    .inputContainer{
+
+        height: 4dvh;
+        width: 80%;
+        display: flex;
+        padding: 10px;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid var(--primary-color);
+    
+        color: black;
+        border-radius: 5px;
+    
+        input{
+            border: none;
+            outline: none;
+        }
+      
+        input::placeholder{
+            color: var(--gray);
+            opacity: 1;
+        }
+    
+        .image{
+            filter: invert(33%) sepia(67%) saturate(4935%) hue-rotate(332deg) brightness(96%) contrast(90%);
+        }
+    }
+    
+    
+    
+
+}
+

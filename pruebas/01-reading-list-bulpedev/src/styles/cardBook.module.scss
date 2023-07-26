@@ -1,0 +1,55 @@
+
+.cardContainer{
+
+    width: 100%;
+    padding: 10px;
+    height:20vh;
+    display: flex;
+    gap: 10px;
+    background-color: var(--primary-background);
+    border: 1px solid var(--gray);
+    border-radius: 5px;
+    cursor: grab;
+    
+
+
+    .imageContainer{
+    
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        .bookCover{
+            width: 90%;
+            height: 90%;
+        
+        }
+    }
+    
+    .cardInfo{
+        height: 100%;
+        width: 75%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+       
+        p{
+            font-weight: 500;
+        
+        }
+        span{
+            font-weight: 500;
+            color: var(--primary-color)
+        }
+    }
+}
+
+.cardContainer:active{
+    cursor: grabbing;
+    user-select: none;
+}
+
+
